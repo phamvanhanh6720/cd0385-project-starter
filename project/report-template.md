@@ -25,9 +25,13 @@ Some reasons I explained in the previous question.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
+Actually, I haven't archived better result than adding addtional features. I think I need to deep into the models of the autogluon framework: how it works, ideal and methodology of models 
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-TODO: Add your explanation
+I take into account:
++ perform multiple rounds of hyperparameter tunning.
++ tweak hyperparameter of each model
++ add more usefull features.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hyperparameters|num_trials|search_strategy|score|
@@ -38,15 +42,12 @@ TODO: Add your explanation
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
-
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+In this project, I have used the Autogluon framework to predict bike sharing demand. I see that it is a very useful framework for a newbie or non-expert Data scientist to start solving machine learning relevant problems or to make the first reference results. However, It also regards a black box if the users do not have deep knowledge about models in the framework. So, I think we need good background knowledge about ML's algorithms as Linear Regression, Logistic Regression, Tree-based algorithms, Neural Network, Ensemble techniques before use it.
